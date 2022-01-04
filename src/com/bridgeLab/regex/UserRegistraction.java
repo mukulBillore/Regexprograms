@@ -1,6 +1,9 @@
 package com.bridgeLab.regex;
 
+import java.util.regex.Pattern;
+
 public class UserRegistraction {
+	//Pattern.matches(this.regularExp, input);
 private final String firstNameRegex= "[A-Z][a-z]{3}[a-z]*";;
 private final String lastNameRegex="[A-Z][a-z]{3}[a-z]*";
 private final String emailRegex="^[a-zA-Z0-9]*(\\.[a-z0-9]+)?@bl\\.co(\\.in)?$";

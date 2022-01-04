@@ -1,5 +1,4 @@
 package com.bridgeLab.regex;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegexPract implements PatternValidate{
