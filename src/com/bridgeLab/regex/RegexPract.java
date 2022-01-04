@@ -3,12 +3,13 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegexPract implements PatternValidate{
-	 String regularExp;
+	final String regularExp;
 	public RegexPract(String regularExp) {
 		super();
 		this.regularExp = regularExp;
 	}
 	public RegexPract() {
+		this.regularExp = "please enter a valid regular exp as constructor";
 	}
 	@Override
 	public boolean patternChecker(String input) {

@@ -25,14 +25,21 @@ public class MainClass {
 		System.out.println("Enter the mail to check");	
 		String input3=sc.nextLine();
 		System.out.println(email.patternChecker(input3));
-*/ 
+
 		//uc4
 		String re4 = "\\+[0-9]{2}[0-9]{10}";
 		RegexPract mobileFormat = new RegexPract(re4);
 		System.out.println("Enter the mobile number to check");	
 		String input4=sc.nextLine();
 		System.out.println(mobileFormat.patternChecker(input4));
-	
+*/	
+		//uc5
+		String re5= "[$&+,:;=?@#|'<>.-^*()%!a-zA-z0-9]{8}";
+		RegexPract password = new RegexPract(re5);
+		System.out.println("Enter the mobile number to check");	
+		String input5=sc.nextLine();
+		System.out.println(password.patternChecker(input5));
+
 	}
 
 }
