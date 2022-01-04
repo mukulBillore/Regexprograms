@@ -33,10 +33,10 @@ public class MainClass {
 		String input4=sc.nextLine();
 		System.out.println(mobileFormat.patternChecker(input4));
 */	
-		//uc5
-		String re5= "[$&+,:;=?@#|'<>.-^*()%!a-zA-z0-9]{8}";
+		//uc5+uc6+uc7+uc8
+		String re5= "\\w]{8}$";
 		RegexPract password = new RegexPract(re5);
-		System.out.println("Enter the mobile number to check");	
+		System.out.println("Enter the password number to check");	
 		String input5=sc.nextLine();
 		System.out.println(password.patternChecker(input5));
 
